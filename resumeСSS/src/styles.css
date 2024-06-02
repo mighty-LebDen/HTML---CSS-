@@ -1,0 +1,102 @@
+hr {
+    border: 1px solid black;
+}
+
+.naming {
+    font-weight: bold;
+    color: #0cf;
+}
+
+.naming.bold {
+    font-weight: bold;
+    color: black;
+
+}
+
+.color-bar {
+    background-color: #0cf;
+    height: 30px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.icon {
+    vertical-align: bottom;
+}
+main {
+    margin: 10px;
+    
+}
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+.main-info {
+    display: flex;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.image {
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.block {
+    width: 48%; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+  
+}
+
+.block.small {
+    width: 48%; 
+    padding:5px;
+    height: auto;
+    margin-bottom: 5px; 
+    block-size:auto;
+    display: block;
+}
+
+
+.block.knowlege {
+    width: 48%;
+    padding:5px;
+    height: auto;
+    margin-bottom: 5px; 
+    block-size:auto;
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+
